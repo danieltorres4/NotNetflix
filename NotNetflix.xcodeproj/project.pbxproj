@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD404BE72B02D266007C9C5D /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD404BE62B02D266007C9C5D /* HeroHeaderUIView.swift */; };
 		BDED6ABB2AF314F8005ECDDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDED6ABA2AF314F8005ECDDE /* AppDelegate.swift */; };
 		BDED6ABD2AF314F8005ECDDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDED6ABC2AF314F8005ECDDE /* SceneDelegate.swift */; };
 		BDED6ABF2AF314F8005ECDDE /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDED6ABE2AF314F8005ECDDE /* MainTabBarViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD404BE62B02D266007C9C5D /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		BDED6AB72AF314F8005ECDDE /* NotNetflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotNetflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDED6ABA2AF314F8005ECDDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDED6ABC2AF314F8005ECDDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				BDED6ADC2AF338B1005ECDDE /* CollectionViewTableViewCell.swift */,
+				BD404BE62B02D266007C9C5D /* HeroHeaderUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				BDED6AD42AF3212A005ECDDE /* SearchViewController.swift in Sources */,
 				BDED6ABF2AF314F8005ECDDE /* MainTabBarViewController.swift in Sources */,
 				BDED6ADD2AF338B1005ECDDE /* CollectionViewTableViewCell.swift in Sources */,
+				BD404BE72B02D266007C9C5D /* HeroHeaderUIView.swift in Sources */,
 				BDED6ABB2AF314F8005ECDDE /* AppDelegate.swift in Sources */,
 				BDED6AD62AF32142005ECDDE /* DownloadViewController.swift in Sources */,
 				BDED6ABD2AF314F8005ECDDE /* SceneDelegate.swift in Sources */,
