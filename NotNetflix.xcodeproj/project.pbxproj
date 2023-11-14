@@ -19,6 +19,7 @@
 		BDED6AD62AF32142005ECDDE /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDED6AD52AF32142005ECDDE /* DownloadViewController.swift */; };
 		BDED6ADD2AF338B1005ECDDE /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDED6ADC2AF338B1005ECDDE /* CollectionViewTableViewCell.swift */; };
 		BDF6D1EC2B03CC500097D407 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6D1EB2B03CC500097D407 /* APICaller.swift */; };
+		BDF6D1EE2B03DCD00097D407 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6D1ED2B03DCD00097D407 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		BDED6AD52AF32142005ECDDE /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
 		BDED6ADC2AF338B1005ECDDE /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		BDF6D1EB2B03CC500097D407 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		BDF6D1ED2B03DCD00097D407 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		BDED6AD92AF33842005ECDDE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BDF6D1ED2B03DCD00097D407 /* Movie.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				BDED6AD62AF32142005ECDDE /* DownloadViewController.swift in Sources */,
 				BDED6ABD2AF314F8005ECDDE /* SceneDelegate.swift in Sources */,
 				BDED6AD22AF32111005ECDDE /* UpcomingViewController.swift in Sources */,
+				BDF6D1EE2B03DCD00097D407 /* Movie.swift in Sources */,
 				BDED6AD02AF320F0005ECDDE /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
