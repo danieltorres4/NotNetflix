@@ -31,7 +31,7 @@
 /* Begin PBXFileReference section */
 		BD1555692B043D9B0007AF4F /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
 		BD39D4AC2B6C442500F53B65 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
-		BD39D4AE2B6C470200F53B65 /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TitleViewModel.swift; path = NotNetflix/Views/TitleViewModel.swift; sourceTree = SOURCE_ROOT; };
+		BD39D4AE2B6C470200F53B65 /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TitleViewModel.swift; path = NotNetflix/ViewModel/TitleViewModel.swift; sourceTree = SOURCE_ROOT; };
 		BD404BE62B02D266007C9C5D /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		BDED6AB72AF314F8005ECDDE /* NotNetflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotNetflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDED6ABA2AF314F8005ECDDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +63,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD39D4B02B6C585100F53B65 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BD39D4AE2B6C470200F53B65 /* TitleViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		BDED6AAE2AF314F8005ECDDE = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +90,7 @@
 		BDED6AB92AF314F8005ECDDE /* NotNetflix */ = {
 			isa = PBXGroup;
 			children = (
+				BD39D4B02B6C585100F53B65 /* ViewModel */,
 				BDED6ADB2AF3387A005ECDDE /* Managers */,
 				BDED6ADA2AF33873005ECDDE /* Resources */,
 				BDED6AD92AF33842005ECDDE /* Models */,
@@ -123,7 +132,6 @@
 		BDED6AD82AF3383A005ECDDE /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				BD39D4AE2B6C470200F53B65 /* TitleViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
