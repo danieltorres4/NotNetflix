@@ -95,7 +95,6 @@
 				BDED6ADA2AF33873005ECDDE /* Resources */,
 				BDED6AD92AF33842005ECDDE /* Models */,
 				BDED6AD72AF33832005ECDDE /* Views */,
-				BDED6AD82AF3383A005ECDDE /* ViewModels */,
 				BDED6ACE2AF320CA005ECDDE /* Controllers */,
 				BDED6ABA2AF314F8005ECDDE /* AppDelegate.swift */,
 				BDED6ABC2AF314F8005ECDDE /* SceneDelegate.swift */,
@@ -127,13 +126,6 @@
 				BD39D4AC2B6C442500F53B65 /* TitleTableViewCell.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		BDED6AD82AF3383A005ECDDE /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		BDED6AD92AF33842005ECDDE /* Models */ = {
